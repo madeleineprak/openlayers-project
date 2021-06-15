@@ -6,10 +6,10 @@
   "main": "index.js",
   "scripts": {
     "start": "parcel ./*.html",
-    "predeploy": "rm -rf dist && parcel build ./*.html --public-url http://madeleineprak.github.io/openlayers-project",
+    "predeploy": "rm -rf dist && parcel build ./*.html --public-url https://madeleineprak.github.io/openlayers-project",
     "deploy": "gh-pages -d dist",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "parcel build index.html --public-url http://madeleineprak.github.io/openlayers-project"
+    "build": "parcel build index.html --public-url https://madeleineprak.github.io/openlayers-project"
   },
   "repository": {
     "type": "git",
