@@ -425,4 +425,4 @@ var t;!function(i,n){"object"==typeof exports&&"undefined"!=typeof module?module
 },{"./XYZ.js":"knlU"}],"Focm":[function(require,module,exports) {
 "use strict";require("ol/ol.css");var e=require("ol"),o=r(require("ol/layer/Tile")),n=r(require("ol/source/OSM"));function r(e){return e&&e.__esModule?e:{default:e}}var t=new e.Map({target:"map",layers:[new o.default({source:new n.default})],view:new e.View({projection:"EPSG:3857",center:[-11415394.558884,2738429.945402],zoom:4})}),a=[{name:"Aguascalientes",coordinates:"[]"},{name:"Baja California Sur",coordinates:"[]"},{name:"Jalisco",coordinates:"[]"}];function i(){t.setView(new e.View({projection:"EPSG:3857",center:[-11394076.755058,2516514.206381],zoom:8}))}function c(){console.log()}document.getElementById("zoom").addEventListener("click",i);
 },{"ol/ol.css":"JiFC","ol":"DRei","ol/layer/Tile":"BUEc","ol/source/OSM":"Rmo4"}]},{},["Focm"], null)
-//# sourceMappingURL=http://madeleineprak.github.io/openlayers-project/openlayers-project.abb09556.js.map
+//# sourceMappingURL=https://madeleineprak.github.io/openlayers-project/openlayers-project.abb09556.js.map
